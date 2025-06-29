@@ -40,16 +40,19 @@
         left_page {
             bindings = <&kp LG(LEFT)>;
             key-positions = <6 7>;
+            layers = <0 4>;
         };
 
         right_page {
             bindings = <&kp LG(RIGHT)>;
             key-positions = <7 8>;
+            layers = <0 4>;
         };
 
         control_center {
             bindings = <&kp LG(UP)>;
             key-positions = <6 8>;
+            layers = <0 4>;
         };
     };
 
