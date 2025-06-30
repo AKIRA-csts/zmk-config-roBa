@@ -81,10 +81,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q      &kp W         &kp E         &kp R                   &kp T                                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G        &mt LS(LG(NUMBER_4)) LS(LC(LG(NUMBER_4)))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp COLON                                      &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG1  &lt 1 SPACE  &lt_to_layer_0 3 LANG2                         &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
+&mt ESCAPE Q        &kp W         &kp E         &kp R                   &kp T                                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&lt_to_layer_0 6 A  &kp S         &kp D         &kp F                   &kp G        &mt LS(LG(NUMBER_4)) LS(LC(LG(NUMBER_4)))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                   &kp B        &mt LG(LS(M)) COLON                            &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 LANG1  &lt 1 SPACE  &lt_to_layer_0 3 LANG2                         &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -121,10 +121,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                              &msc SCRL_DOWN   &kp LG(SEMICOLON)  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)
-&trans  &trans  &trans  &trans  &trans  &trans      &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB1           &mkp MB3            &mkp MB2          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans          &msc SCRL_UP     &kp LG(MINUS)      &mkp MB4            &mkp MB5          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans          &trans                                                                    &trans
+&trans  &trans  &trans  &trans  &trans                              &msc SCRL_DOWN   &kp LG(SEMICOLON)  &kp LC(LEFT)  &kp LC(UP)  &kp LC(RIGHT)
+&trans  &trans  &trans  &trans  &trans  &trans      &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB1           &mkp MB3      &mkp MB2    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans          &msc SCRL_UP     &kp LG(MINUS)      &mkp MB4      &mkp MB5    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans          &trans                                                        &trans
             >;
         };
 
