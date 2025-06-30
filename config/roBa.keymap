@@ -40,13 +40,11 @@
         left_page {
             bindings = <&kp LC(LEFT_ARROW)>;
             key-positions = <6 7>;
-            layers = <0 4>;
         };
 
         right_page {
             bindings = <&kp LC(RIGHT_ARROW)>;
             key-positions = <7 8>;
-            layers = <0 4>;
         };
 
         control_center {
