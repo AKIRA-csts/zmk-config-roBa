@@ -37,16 +37,6 @@
             key-positions = <24 25>;
         };
 
-        left_page {
-            bindings = <&kp LC(LEFT_ARROW)>;
-            key-positions = <6 7>;
-        };
-
-        right_page {
-            bindings = <&kp LC(RIGHT_ARROW)>;
-            key-positions = <7 8>;
-        };
-
         control_center {
             bindings = <&kp LC(UP_ARROW)>;
             key-positions = <6 8>;
