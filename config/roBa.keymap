@@ -40,7 +40,6 @@
         control_center {
             bindings = <&kp LC(UP_ARROW)>;
             key-positions = <6 8>;
-            layers = <0>;
         };
     };
 
