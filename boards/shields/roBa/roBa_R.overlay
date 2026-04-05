@@ -15,11 +15,17 @@
 };
 
 / {
+    zip_xy_scaler: zip_xy_scaler {
+        compatible = "zmk,input-processor-scaler";
+    };
+};
+
+/ {
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        //input-processors = <&zip_xy_scaler 3 3>;
+        input-processors = <&zip_xy_scaler 3 3>;
     };
 };
 
